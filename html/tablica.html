@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <title>Muzej umjetnosti Metropolitan</title>
+    <link rel="icon" type="image/x-icon" href="/slike/logo.png">
+    <link href="/css/evalec21.css" rel="stylesheet" type="text/css">
+    <link href="/css/responsive.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Emanuel Valec">
+    <meta name="keywords" content="Muzej, New York, Umjetnost">
+    <meta name="description" content="Muzej umjetnosti Metropolitan u New York, jedan od najvećih muzeja na svijetu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Početna</a></li>
+            <li><a href="/oau">O autoru</a></li>
+            <li><a href="/dok">Dokumentacija</a></li>
+            <li><a href="/eks">Eksponati</a></li>
+            <li id="active"><a href="/tab">Tablica</a></li>
+            <li><a href="/kon">Obrazac validacija</a></li>
+            <li><a href="/izl">Obrazac izložba</a></li>
+            <li><a href="/popis">Popis</a></li>
+            <li><a href="/owt/izlozba">REST servis</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div id="zaglavlje">
+            <a href="/"><img src="/slike/logo.png" alt="banner"></a>
+            <h1>Dobrodošli u MET</h1>
+        </div>
+    </header>
+
+    <main>
+        <table id="veza">
+            <caption>Eksponati muzeja</caption>
+            <colgroup>
+                <col style="width: 3%;">
+                <col style="width: 10%;">
+                <col style="width: 10%;">
+                <col style="width: 10%;">
+                <col style="width: 10%;">
+                <col style="width: 37%;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Naziv</th>
+                    <th>Period</th>
+                    <th>Kategorija</th>
+                    <th>Porijeklo</th>
+                    <th>Opis</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001 </td>
+                    <td>Glava statue starijeg čovjeka</td>
+                    <td>2550–2460 pr. Kr</td>
+                    <td>Obrada metala</td>
+                    <td rowspan="2">Egipat</td>
+                    <td>Slične posude iskopane u Unutrašnjoj Mongoliji sugeriraju da je ova pomalo nezgrapna vaza proizvedena za pripadnika Ruzhena.</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Glava Akhenatena</td>
+                    <td>1353. – 1336. pr. Kr</td>
+                    <td>Kiparstvo</td>
+                    <td>Kip glave faraona Akhenatena izrađen je od pješčenjaka u Amarna periodu Novog Kraljevstva.</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Brončana kineska vaza</td>
+                    <td>13. stoljeće</td>
+                    <td>Kiparstvo</td>
+                    <td>Kina</td>
+                    <td>Slične posude iskopane u Unutrašnjoj Mongoliji sugeriraju da je ova pomalo nezgrapna vaza proizvedena za pripadnika Ruzhena.</td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td>Pisaća fotelja</td>
+                    <td>1820-1825 godina</td>
+                    <td>Namještaj</td>
+                    <td rowspan="2">SAD</td>
+                    <td>Izrađena od mahagonija, topole i javora.</td>
+                </tr>
+                <tr>
+                    <td>005</td>
+                    <td>Svijećnjak</td>
+                    <td>19. stoljeće</td>
+                    <td>Američko krilo</td>
+                    <td>Elegantan pozlaćeni američki svijećnjak.</td>
+                </tr>
+                <tr>
+                    <td>006</td>
+                    <td>Portret žene</td>
+                    <td>1687. godina</td>
+                    <td>Slike</td>
+                    <td>Nizozemska</td>
+                    <td>Willem Wissingov "Portret žene" iz 1687. godine je ulje na platnu koje prikazuje sofisticiranost i eleganciju kroz detaljno oslikanu odjeću i izražajni portret.</td>
+                </tr>
+                <tr>
+                    <td>007</td>
+                    <td>Armet</td>
+                    <td>1440. godina</td>
+                    <td>Kacige</td>
+                    <td>Italija</td>
+                    <td>Jedan od najranijih cjelovitih primjeraka oružja.</td>
+                </tr>
+                <tr>
+                    <td>008</td>
+                    <td>Dionizov kip naslonjen na žensku figuru</td>
+                    <td>27. pr. Kr. – 68. godine</td>
+                    <td>Kiparstvo</td>
+                    <td>Rim</td>
+                    <td>Rimska kopija grčkog izvornika. Adaptacija grčkog djela iz 4. st. pr. Kr.</td>
+                </tr>
+                <tr>
+                    <td>009</td>
+                    <td>Figura muškog rižinog božanstva (Bulul)</td>
+                    <td>19. stoljeće ili ranije</td>
+                    <td>Drvo-skulptura</td>
+                    <td>Filipini, regija Hapao</td>
+                    <td>Bulul su izrezbarene figure predaka koje su stavljane u žitnice da čuvaju urod riže.</td>
+                </tr>
+                <tr>
+                    <td>010</td>
+                    <td>Chrysanthemums</td>
+                    <td>1882. godina</td>
+                    <td>Slike</td>
+                    <td rowspan="3">Francuska</td>
+                    <td>Monetov "Chrysanthemums" iz 1882. je ulje na platnu koje prikazuje bujni cvjetni motiv, tipičan za njegov interes za vrtlarske teme i prirodnu ljepotu.</td>
+                </tr>
+                <tr>
+                    <td>011</td>
+                    <td>Dvocijevna sačmarica s punjenjem zatvarača</td>
+                    <td>1866. godina</td>
+                    <td>Vatreno oružje</td>
+                    <td>Rokoko oružje s umjetničkim gravurama i plavo-zlatnim akcentima.</td>
+                </tr>
+                <tr>
+                    <td>012</td>
+                    <td>Kabinet</td>
+                    <td>1868. godina</td>
+                    <td>Stolarija-namještaj</td>
+                    <td>Hrast furniran cedrom, orahom, ebanovinom i slonovačom; posrebreno-brončani nosači</td>
+                </tr>
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="center-text" colspan="6">Ovi izlošci su dio tekućih nastojanja MET muzeja da sačuva i podijeli globalnu umjetničku baštinu.</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
+    <footer>
+        <a href="https://creativecommons.org/share-your-work/cclicenses/"><p id="c-znak">&copy;</p></a>
+        <p id="ime_prezime">2024 Emanuel Valec</p>
+        <a href="https://validator.w3.org/check?uri=http://spider.foi.hr:12570/tab"><img
+            src="/slike/HTML5.png" width="50" height="60" alt="HTML5 validator"></a>
+    </footer>
+
+</body>
+
+</html>

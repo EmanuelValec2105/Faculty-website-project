@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <title>Obrazac izložba</title>
+    <link rel="icon" type="image/x-icon" href="/slike/logo.png">
+    <link href="/css/evalec21.css" rel="stylesheet" type="text/css">
+    <link href="/css/responsive.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Emanuel Valec">
+    <meta name="keywords" content="Muzej, New York, Umjetnost">
+    <meta name="description" content="Muzej umjetnosti Metropolitan u New York, jedan od najvećih muzeja na svijetu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Početna</a></li>
+            <li><a href="/oau">O autoru</a></li>
+            <li><a href="/dok">Dokumentacija</a></li>
+            <li><a href="/eks">Eksponati</a></li>
+            <li><a href="/tab">Tablica</a></li>
+            <li><a href="/kon">Obrazac validacija</a></li>
+            <li id="active"><a href="/izl">Obrazac izložba</a></li>
+            <li><a href="/popis">Popis</a></li>
+            <li><a href="/owt/izlozba">REST servis</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div id="zaglavlje">
+            <a href="/"><img src="/slike/logo.png" alt="banner"></a>
+            <h1>Obrazac izložba</h1>
+        </div>
+    </header>
+    <main class="form-container">
+        <form action="/owt/izlozba" method="post" id="izlozbaForm">
+            <div class="form-row">
+                <div class="label-container">
+                    <label for="id">ID:</label>
+                </div>
+                <div class="input-container">
+                    <input type="text" id="id" name="id" placeholder="ID primjerka" maxlength="30" size="30" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="label-container">
+                    <label for="naziv">Naziv:</label>
+                </div>
+                <div class="input-container">
+                    <input type="text" id="naziv" name="naziv" placeholder="Naziv primjerka" maxlength="30" size="30" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="label-container">
+                    <label for="period">Period:</label>
+                </div>
+                <div class="input-container">
+                    <input type="text" id="period" name="period" placeholder="Period primjerka" maxlength="100" size="30" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="label-container">
+                    <label for="kategorija">Kategorija:</label>
+                </div>
+                <div class="input-container">
+                    <input type="text" id="kategorija" name="kategorija" placeholder="Kategorija primjerka" maxlength="30" size="30" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="label-container">
+                    <label for="porijeklo">Porijeklo:</label>
+                </div>
+                <div class="input-container">
+                    <input type="text" id="porijeklo" name="porijeklo" placeholder="Porijeklo primjerka" maxlength="30" size="30" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="label-container">
+                    <label for="opis">Opis:</label>
+                </div>
+                <div class="input-container">
+                    <textarea id="opis" name="opis" placeholder="Opis primjerka" maxlength="500" required></textarea>
+                </div>
+            </div>
+            <div class="form-row form-row-buttons">
+                <button type="submit">Pošalji</button>
+                <button type="reset">Osvježi</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <a href="https://creativecommons.org/share-your-work/cclicenses/"><p id="c-znak">&copy;</p></a>
+        <p id="ime_prezime">2024 Emanuel Valec</p>
+        <a href="https://validator.w3.org/check?uri=http://spider.foi.hr:12570/izl"><img src="/slike/HTML5.png" width="50" height="60" alt="HTML5 validator"></a>
+    </footer>
+</body>
+</html>

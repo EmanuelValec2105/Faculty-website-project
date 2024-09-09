@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <title>Muzej umjetnosti Metropolitan</title>
+    <link rel="icon" type="image/x-icon" href="/slike/logo.png">
+    <link href="/css/evalec21.css" rel="stylesheet" type="text/css">
+    <link href="/css/responsive.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Emanuel Valec">
+    <meta name="keywords" content="Muzej, New York, Umjetnost">
+    <meta name="description" content="Muzej umjetnosti Metropolitan u New York, jedan od najvećih muzeja na svijetu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav>
+      <ul>
+        <li><a href="/">Početna</a></li>
+        <li><a href="/oau">O autoru</a></li>
+        <li><a href="/dok">Dokumentacija</a></li>
+        <li><a href="/eks">Eksponati</a></li>
+        <li><a href="/tab">Tablica</a></li>
+        <li id="active"><a href="/kon">Obrazac validacija</a></li>
+        <li><a href="/izl">Obrazac izložba</a></li>
+        <li><a href="/popis">Popis</a></li>
+        <li><a href="/owt/izlozba">REST servis</a></li>
+    </ul>
+    </nav>
+
+    <header>
+        <div id="zaglavlje">
+            <a href="/"><img src="/slike/logo.png" alt="banner"></a>
+            <h1>Dobrodošli u MET</h1>
+        </div>
+    </header>
+
+    <h1 id="naslov-odlomka">Rezervirajte termin posjeta</h1>
+
+<main class="form-container">
+        <form action="https://spider.foi.hr/OWT/materijali/ispis_forme.php" method="post" id="veza" novalidate>
+            <div class="form-row">
+                <div class="label-container">
+                  <label for="firstName">Ime:</label>
+                </div>
+                <div class="input-container">
+                  <input type="text" id="firstName" name="firstName" placeholder="Vaše ime" maxlength="30"  size="30" >
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="label-container">
+                  <label for="lastName">Prezime:</label>
+                </div>
+                <div class="input-container">
+                  <input type="text" id="lastName" name="lastName" placeholder="Vaše prezime" maxlength="30"  size="30" >
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="label-container">
+                  <label for="email">E-mail adresa:</label>
+                </div>
+                <div class="input-container">
+                  <input type="email" id="email" name="email" placeholder="primjer@gmail.com" minlength="10" size="40" >
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="label-container">
+                  <label for="numberOfVisitors">Broj posjetitelja:</label>
+                </div>
+                <div class="input-container">
+                  <input type="number" id="numberOfVisitors" name="numberOfVisitors" min="1" >
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="label-container">
+                  <label for="visitDate">Datum posjeta:</label>
+                </div>
+                <div class="input-container">
+                  <input type="date" id="visitDate" name="visitDate" >
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="label-container">
+                  <label for="timeOfVisit">Vrijeme posjeta:</label>
+                </div>
+                <div class="input-container">
+                  <input type="time" id="timeOfVisit" name="timeOfVisit" >
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="label-container">
+                  <label for="collection">Kolekcija:</label>
+                </div>
+                <div class="input-container">
+                  <select id="collection" name="collection">
+                      <optgroup label="Umjetnost">
+                        <option value="paintings">Slike</option>
+                        <option value="sculptures">Skulpture</option>
+                        <option value="drawings">Crteži</option>
+                      </optgroup>
+                      <optgroup label="Povijesni predmeti">
+                        <option value="antiquities">Starine</option>
+                        <option value="manuscripts">Rukopisi</option>
+                        <option value="weapons">Oružje</option>
+                      </optgroup>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="label-container">
+                  <label for="visitPurpose">Svrha posjeta:</label>
+                </div>
+                <div class="input-container">
+                  <select id="visitPurpose" name="visitPurpose">
+                    <option value="education">Edukacija</option>
+                    <option value="recreation">Rekreacija</option>
+                    <option value="research">Istraživanje</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="label-container">
+                  <label for="favoriteArtist">Omiljeni umjetnik:</label>
+                </div>
+                <div class="input-container">
+                  <input type="text" id="favoriteArtist" name="favoriteArtist">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="label-container">
+                  <label for="membershipLevel">Razina članstva:</label>
+                </div>
+                <div class="input-container">
+                  <input type="range" id="membershipLevel" name="membershipLevel" min="1" max="3">
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="label-container">
+                  <label for="comments">Komentar:</label>
+                </div>
+                <div class="input-container">
+                  <textarea id="comments" name="comments" ></textarea>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="label-container">
+                  <label for="newsletter">Pretplata na newsletter:</label>
+                </div>
+                <div class="input-container">
+                  <input type="checkbox" id="newsletter" name="newsletter">
+                </div>
+              </div>
+              <div class="form-row form-row-buttons">
+                <button type="submit">Pošalji</button>
+                <button type="reset">Osvježi</button>
+              </div>
+        </form>
+</main>
+
+    <footer>
+        <a href="https://creativecommons.org/share-your-work/cclicenses/"><p id="c-znak">&copy;</p></a>
+        <p id="ime_prezime">2024 Emanuel Valec</p>
+        <a href="https://validator.w3.org/check?uri=http://spider.foi.hr:12570/kon"><img
+            src="/slike/HTML5.png" width="50" height="60" alt="HTML5 validator"></a>
+    </footer>
+    <script src="/jsk/klijent/evalec21_obrazac.js"></script>
+</body>
+
+</html>

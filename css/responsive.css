@@ -1,0 +1,155 @@
+body.mobile {
+    font-size: 14px;
+    width: 450px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+body.mobile nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+body.mobile header {
+    text-align: center;
+}
+
+body.mobile #vijest-lijevo,
+body.mobile #vijest-sredina,
+body.mobile #vijest-desna {
+    width: 90%;
+    margin: 2% auto 2% auto;
+}
+
+body.mobile nav {
+    position: static;
+}
+
+body.mobile nav > ul {
+    flex-direction: column;
+}
+
+body.mobile nav > ul > li {
+    display: block;
+}
+
+body.mobile #zaglavlje {
+    min-height: 350px;
+    padding: 20px 0;
+    flex-direction: column;
+}
+
+body.mobile #zaglavlje h1 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+body.mobile #zaglavlje img {
+    width: 60%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+body.mobile #button-mobilna {
+    width: 100%;
+    margin: 2% auto 0 auto;
+}
+
+@media (max-width: 800px) {
+  #vijest-lijevo,
+  #vijest-sredina,
+  #vijest-desna {
+      width: 90%;
+      margin: 2% auto 2% auto;
+  }
+
+  td, th {
+    display: none;
+  }
+  td:nth-child(2), th:nth-child(2),
+  td:nth-child(3), th:nth-child(3) {
+      display: table-cell;
+  }
+  colgroup {
+      display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  nav {
+      position: static;
+  }
+  nav > ul {
+      flex-direction: column;
+  }
+  nav > ul > li {
+      display: block;
+  }
+
+  #zaglavlje {
+      min-height: 350px;
+      padding: 20px 0;
+      flex-direction: column;
+  }
+  #zaglavlje h1 {
+      font-size: 30px;
+      margin: 0;
+      text-align: center;
+  }
+  #zaglavlje img {
+      width: 60%;
+      max-width: 300px;
+      margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .form-row {
+      flex-direction: row;
+      align-items: center;
+  }
+
+  .form-container{
+    width: 70%;
+  }
+
+  .label-container {
+      width: 20%;
+      text-align: right;
+      padding-right: 20px;
+  }
+
+  .input-container {
+      width: 90%;
+  }
+
+  input,
+  select,
+  textarea {
+      width: 90%;
+  }
+
+  button {
+      margin-left:40px ;
+      padding: 10px 20px;
+      margin-top: 0;
+      width: auto;
+  }
+}
+
+
+@media print {
+  body * {
+      visibility: hidden;
+  }
+  table, table * {
+      visibility: visible;
+  }
+  table {
+      position: absolute;
+      left: 0;
+      top: 0;
+  }
+}
+

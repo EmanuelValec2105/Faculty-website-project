@@ -1,0 +1,14 @@
+[
+    {"id": "001", "naziv": "Glava statue starijeg čovjeka", "period": "2550–2460 pr. Kr", "kategorija": "Obrada metala", "porijeklo": "Egipat", "opis": "Slične posude iskopane u Unutrašnjoj Mongoliji sugeriraju da je ova pomalo nezgrapna vaza proizvedena za pripadnika Ruzhena."},
+    {"id": "002", "naziv": "Glava Akhenatena", "period": "1353. – 1336. pr. Kr", "kategorija": "Kiparstvo", "porijeklo": "Egipat", "opis": "Kip glave faraona Akhenatena izrađen je od pješčenjaka u Amarna periodu Novog Kraljevstva."},
+    {"id": "003", "naziv": "Brončana kineska vaza", "period": "13. stoljeće", "kategorija": "Kiparstvo", "porijeklo": "Kina", "opis": "Slične posude iskopane u Unutrašnjoj Mongoliji sugeriraju da je ova pomalo nezgrapna vaza proizvedena za pripadnika Ruzhena."},
+    {"id": "004", "naziv": "Pisaća fotelja", "period": "1820-1825 godina", "kategorija": "Namještaj", "porijeklo": "SAD", "opis": "Izrađena od mahagonija, topole i javora."},
+    {"id": "005", "naziv": "Svijećnjak", "period": "19. stoljeće", "kategorija": "Američko krilo", "porijeklo": "SAD    ", "opis": "Elegantan pozlaćeni američki svijećnjak."},
+    {"id": "006", "naziv": "Portret žene", "period": "1687. godina", "kategorija": "Slike", "porijeklo": "Nizozemska", "opis": "Willem Wissingov \"Portret žene\" iz 1687. godine je ulje na platnu koje prikazuje sofisticiranost i eleganciju kroz detaljno oslikanu odjeću i izražajni portret."},
+    {"id": "007", "naziv": "Armet", "period": "1440. godina", "kategorija": "Kacige", "porijeklo": "Italija", "opis": "Jedan od najranijih cjelovitih primjeraka oružja."},
+    {"id": "008", "naziv": "Dionizov kip naslonjen na žensku figuru", "period": "27. pr. Kr. – 68. godine", "kategorija": "Kiparstvo", "porijeklo": "Rim", "opis": "Rimska kopija grčkog izvornika. Adaptacija grčkog djela iz 4. st. pr. Kr."},
+    {"id": "009", "naziv": "Figura muškog rižinog božanstva (Bulul)", "period": "19. stoljeće ili ranije", "kategorija": "Drvo-skluptura", "porijeklo": "Filipini, regija Hapao", "opis": "Bulul su izrezbarene figure predaka koje su stavljane u žitnice da čuvaju urod riže."},
+    {"id": "010", "naziv": "Chrysanthemums", "period": "1882. godina", "kategorija": "Slike", "porijeklo": "", "opis": "Monetov \"Chrysanthemums\" iz 1882. je ulje na platnu koje prikazuje bujni cvjetni motiv, tipičan za njegov interes za vrtlarske teme i prirodnu ljepotu."},
+    {"id": "011", "naziv": "Dvocijevna sačmarica s punjenjem zatvarača", "period": "1866. godina", "kategorija": "Vatreno oružje", "porijeklo": "Francuska", "opis": "Rokoko oružje s umjetničkim gravurama i plavo-zlatnim akcentima."},
+    {"id": "012", "naziv": "Kabinet", "period": "1868. godina", "kategorija": "Stolarija-namještaj", "porijeklo": "Francuska", "opis": "Hrast furniran cedrom, orahom, ebanovinom i slonovačom; posrebreno-brončani nosači"}
+]

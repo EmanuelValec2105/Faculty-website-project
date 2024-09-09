@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <style>
+        #poj-vijest {
+            margin: 0px;
+            padding: 2% 4% 4% 4%;
+        }
+
+        #naslov-autor{
+            border: 2px solid #e4002b;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            width: max-content;
+        }
+
+        #naslov-autor h3{
+            padding: 20px;
+        }
+
+        #vijest-naslov{
+            border-bottom: 2px solid #e4002b;
+            padding: 20px;
+        }
+
+        #tekst-slika{
+            border: 2px solid #e4002b;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            padding: 20px 20px 15px 20px;
+            margin-top: 20px;
+        }
+
+        #tekst-slika img{
+            width: 70%;
+            height: auto;
+            border: 1px solid white;
+            border-radius: 20px;
+            animation: zoom-in-zoom-out 5s ease infinite;
+            transform-origin: top left;
+        }
+
+        @keyframes zoom-in-zoom-out {
+            0% {
+                transform: scale(1, 1);
+            }
+            50% {
+                transform: scale(1.2, 1.2);
+            }
+            100% {
+                transform: scale(1, 1);
+            }
+        }
+    </style>
+    <title>Muzej umjetnosti Metropolitan</title>
+    <link rel="icon" type="image/x-icon" href="/slike/logo.png">
+    <link href="/css/evalec21.css" rel="stylesheet" type="text/css">
+    <link href="/css/responsive.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Emanuel Valec">
+    <meta name="keywords" content="Muzej, New York, Umjetnost">
+    <meta name="description" content="Muzej umjetnosti Metropolitan u New York, jedan od najvećih muzeja na svijetu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Početna</a></li>
+            <li><a href="/oau">O autoru</a></li>
+            <li><a href="/dok">Dokumentacija</a></li>
+            <li><a href="/eks">Eksponati</a></li>
+            <li><a href="/tab">Tablica</a></li>
+            <li><a href="/kon">Obrazac validacija</a></li>
+            <li><a href="/izl">Obrazac izložba</a></li>
+            <li><a href="/popis">Popis</a></li>
+            <li><a href="/owt/izlozba">REST servis</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div id="zaglavlje">
+            <a href="/"><img src="/slike/logo.png" alt="banner"></a>
+            <h1>Dobrodošli u MET</h1>
+        </div>
+    </header>
+
+    <main id="poj-vijest">
+        <div id="naslov-autor">
+            <div id="vijest-naslov"> 
+                <h1 id="veza">Svjetska umjetnost</h1>
+            </div>    
+                <h3>Emanuel Valec, 10.04.2024.</h3>
+        </div>
+        <div id="tekst-slika">
+            <p>
+                Posjet Metropolitan Museum of Art u New Yorku je kao otvaranje knjige povijesti umjetnosti koja živi i diše kroz svoje galerije i eksponate. Sa više od dva milijuna umjetničkih djela raspoređenih unutar beskrajnih hodnika i salona, MET je pravo umjetničko svetište koje privlači umjetničke strastvenike, povjesničare, istraživače i znatiželjnike iz cijelog svijeta. <br><br>
+
+                Osnovan 1870. godine, MET se može pohvaliti s kolekcijom koja pokriva cijeli spektar ljudskog izražavanja - od skromnih oruđa primitivnih civilizacija do složenih digitalnih instalacija koje izazivaju na razmišljanje. Svaka od njegovih neprocjenjivih kolekcija predstavlja putovanje kroz vremenske periode i kontinente, osvjetljavajući različite aspekte ljudske povijesti i kulture. <br><br>
+                
+                U egipatskoj sekciji, posjetitelji se mogu diviti drevnim sarkofazima i relikvijama, dok u grčkoj i rimskoj galeriji mogu istražiti temelje zapadne civilizacije. Djela koja su preživjela stoljeća govore priče o religiji, ratu, miru i svakodnevnom životu, pružajući jedinstveni uvid u daleke epohe. Zbirka Europskih majstora, sa slikama Rembrandta, Vermeera i mnogih drugih, vodi posjetitelje kroz renesansu, barok i klasicizam, svjedočeći o evoluciji umjetničkog izraza i perspektive. <br><br>
+                
+                Impresionističke i postimpresionističke galerije odaju počast revoluciji boja i svjetlosti s djelima Moneta, Degasa i Van Gogha, dok moderna i suvremena umjetnost izazivaju razmišljanje s radovima Picassa, Pollocka i Warhola koji predstavljaju umjetničku revoluciju 20. stoljeća. <br><br>
+                
+                Nije samo raznolikost umjetničkih djela ono što čini MET izvanrednim; to je i njihova duboka emocionalna i kulturna vrijednost. Azijska umjetnost otkriva filozofije i estetiku Dalekog istoka kroz vrhunski izrađene svitke i skulpture. Afrička umjetnost, s druge strane, pruža uvid u duhovne običaje i umjetnost s tog kontinenta, dok su islamske umjetnosti prepune detaljnih kaligrafija i složenih uzoraka koji odražavaju bogatstvo njihovih umjetničkih tradicija. <br><br>
+                
+                MET također snažno naglašava edukaciju i dostupnost umjetnosti svima. Kroz programe kao što su MetLiveArts, različite edukativne radionice i obiteljske aktivnosti, muzej pruža posjetiteljima priliku da uče, sudjeluju i istinski iskuse umjetnost. Digitalne inicijative i resursi, kao što su virtualne ture i online kolekcije, omogućuju onima koji nisu u mogućnosti fizički posjetiti muzej da uživaju u njegovim bogatstvima. <br><br>
+                
+                Zakoračiti u MET znači zakoračiti u svijet gdje prošlost, sadašnjost i budućnost umjetnosti koegzistiraju. To je mjesto gdje se svaka posjeta može pretvoriti u nezaboravno putovanje, mjesto gdje se umjetnost ne samo prikazuje, već i živi. Od djece koja se dive bojama i oblicima do akademika koji se bave istraživanjem, MET nudi nešto za svakoga, čineći ga jednim od najvažnijih kulturnih dragulja u srcu New Yorka. <br><br>
+            </p>
+            <img src="/slike/slika-vijest.jpg" alt="pojedinacna-vijest-slika"><br>
+            <audio controls>
+                <source src="/audio" type="audio/mp3">
+            </audio>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://creativecommons.org/share-your-work/cclicenses/"><p id="c-znak">&copy;</p></a>
+        <p id="ime_prezime">2024 Emanuel Valec</p>
+        <a href="https://validator.w3.org/check?uri=http://spider.foi.hr:12570/vij"><img
+            src="/slike/HTML5.png" width="50" height="60" alt="HTML5 validator"></a>
+    </footer>
+
+</body>
+
+</html>
