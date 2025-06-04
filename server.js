@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs');
 const Modul = require('./js/server/modul');
 
-const port = 4444;
+const port = process.env.PORT || 4444;
 
 const server = express();
 
@@ -191,6 +191,6 @@ server.use((req, res) => {
     res.status(404).send('Stranica ne postoji! <a href="/">Povratak na početnu</a>');
 });
 
-server.listen(port, () => {
-    console.log(`Server pokrenut na portu: ${port}`);
+server.listen(port, '0.0.0.0', () => {
+  console.log(`Server pokrenut na portu: ${port}`);
 });
