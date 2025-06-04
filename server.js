@@ -1,10 +1,9 @@
-const express = require('/usr/lib/node_modules/express');
-const portovi = require("/var/www/OWT/2024/portovi.js");
+const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const Modul = require('./js/server/modul');
 
-const port = portovi.evalec21;
+const port = 4444;
 
 const server = express();
 
